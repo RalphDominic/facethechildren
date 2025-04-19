@@ -4,8 +4,8 @@ import Home from './components/home/Home'
 import AboutHolder from './components/about/AboutHolder'
 import Faqsection from './components/faq/Faqsection'
 import StrategySection from './components/strategy/StrategySection'
-import ContactAndTeam from './components/contact/ContactAndTeam'
 import ContactSection from './components/contact/ContactSection'
+import SponsorSection from './components/sponsor/SponsorSection'
 
 
 
@@ -17,6 +17,7 @@ const App = () => {
     <Faqsection/>
     <StrategySection/>
     <ContactSection/>
+    <SponsorSection/>
     </>
     
 
