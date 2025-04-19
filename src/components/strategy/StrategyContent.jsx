@@ -62,29 +62,30 @@ const StrategyContent = () => {
 
       {/* Section: Love Never Fails */}
       <section className="bg-gray-100 py-16">
-        <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10">
-          {/* Image (first on mobile, second on desktop) */}
-          <div className="order-1 md:order-2 md:w-1/2">
-            <img
-              src="https://facethechildren.org/images/website/s-love.webp"
-              alt="Group of children"
-              className="rounded-full w-80 h-80 object-cover shadow-md mx-auto md:mx-0"
-            />
-          </div>
+  <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10">
+    {/* Image (first on mobile and desktop) */}
+    <div className="order-1 md:order-1 md:w-1/2">
+      <img
+        src="https://facethechildren.org/images/website/s-love.webp"
+        alt="Group of children"
+        className="rounded-full w-80 h-80 object-cover shadow-md mx-auto md:mx-0"
+      />
+    </div>
 
-          {/* Text (second on mobile, first on desktop) */}
-          <div className="order-2 md:order-1 md:w-1/2">
-            <p className="text-xs font-semibold text-orange-500 uppercase mb-2">Prevails Forever</p>
-            <h2 className="text-3xl font-bold text-blue-800 mb-4">Love Never Fails</h2>
-            <p className="mb-4">
-              Many children we serve come to us with psychological, behavioral problems...
-            </p>
-            <p>
-              Many children have good reasons for hesitation to trust or commit to others...
-            </p>
-          </div>
-        </div>
-      </section>
+    {/* Text (second on mobile and desktop) */}
+    <div className="order-2 md:order-2 md:w-1/2">
+      <p className="text-xs font-semibold text-orange-500 uppercase mb-2">Prevails Forever</p>
+      <h2 className="text-3xl font-bold text-blue-800 mb-4">Love Never Fails</h2>
+      <p className="mb-4">
+        Many children we serve come to us with psychological, behavioral problems...
+      </p>
+      <p>
+        Many children have good reasons for hesitation to trust or commit to others...
+      </p>
+    </div>
+  </div>
+</section>
+
     </main>
   );
 };
